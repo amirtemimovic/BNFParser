@@ -1,0 +1,8 @@
+<student> ::= <ime_prezime> <broj> <br_godina> <mejl> veliki_grad <hobi>
+<ime_prezime> ::= <ime> <prezime>
+<broj> ::= broj_telefona
+<ime> ::= regex(Amir|Amko)
+<prezime> ::= regex(Temimovic)
+<br_godina> ::= brojevna_konstanta
+<mejl> ::= mejl_adresa
+<hobi> ::= regex(([A-Z0-9]+))
